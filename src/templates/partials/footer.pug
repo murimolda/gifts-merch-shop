@@ -1,0 +1,42 @@
+footer.footer
+  .footer__wrap
+    .footer__col
+      .footer__logo
+        .footer-logo__img
+          svg(class="icon")
+            use(xlink:href="assets/images/sprite.svg#icon-logo")
+      p.footer__text Свежее дыхание в корпоративной жизни и жизни корпоративной дыхание свежее
+      .footer__contact-item
+        a.footer__contact-link(href="tel:+380630130103") +380 630 130 103
+      .footer__contact-item
+        a.link.footer__contact-link(href="mailto:example@gmail.com") example@gmail.com
+    .footer__col
+      h5.title.footer__title Категории
+      ul
+        li
+          a.link.footer__nav-link(href="#", target="_blank") Пошив
+        li
+          a.link.footer__nav-link(href="#", target="_blank") Все товары
+        li
+          a.link.footer__nav-link(href="#", target="_blank") Наборы
+        li
+          a.link.footer__nav-link(href="#", target="_blank") Производство
+    .footer__col
+      h5.title.footer__title Информация
+      ul
+        li
+          a.link.footer__nav-link(href="#", target="_blank") О нас
+        li
+          a.link.footer__nav-link(href="#", target="_blank") ЧаВо
+        li
+          a.link.footer__nav-link(href="#", target="_blank") Контакты
+    .footer__col
+      h5.title.footer__title Связаться с менеджером
+      p.footer__text
+                    | Есть вопрос на который не нашли ответ?
+                    | Оставьте контакт и наш менеджер свяжеться с вами
+      form.footer__contact-form(action="#" method = "GET")
+        input#footer__contact-item(type="tel", name="contact-tel")
+        button(type="submit")
+          svg(class="icon")
+            use(xlink:href="assets/images/sprite.svg#icon-arrow")
